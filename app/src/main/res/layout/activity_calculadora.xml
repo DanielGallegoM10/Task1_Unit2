@@ -19,10 +19,10 @@
         android:id="@+id/sumatotal"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="0.0"
         android:background="@color/teal_200"
-        android:textAlignment="gravity"
-        android:textSize="20dp"
+        android:text="0.0"
+        android:textAlignment="textEnd"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -89,6 +89,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/bt9"
         app:layout_constraintTop_toTopOf="@id/guideline" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width=""
+        android:layout_height=""
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline1"
